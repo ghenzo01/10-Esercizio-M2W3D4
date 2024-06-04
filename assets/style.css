@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.prodotto{
+    background-color: green;
+    border: 1px solid black;
+    height: 20vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin:10px 10px; /*margine top e bottom*/
+    display: flex;
+
+}
+
+.prodotto img {
+    width:100px;
+    margin-left: 30px;
+}
+
+.button {
+display: block;
+margin-left: 70px;
+
+}
+
+.link-amazon{
+    display:block;
+    color:orangered;
+
+}
+
+.link-amazon2{
+    color:blue;
+
+}
+
+.hidden{
+    display:none;
+}
+
+.dati{
+
+    margin-left: 20px;
+}
+
+footer{
+    height: 30vh;
+    background-color: pink;
+    text-align: center; /*allinea in orizzontale*/
+    align-content: center; /*allinea in verticale*/
+}
+
+.btn{
+
+    margin-left: 20px;
+}
